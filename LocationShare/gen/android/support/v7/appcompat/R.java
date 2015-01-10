@@ -529,10 +529,6 @@ public final class R {
 		public static final int Base_V14_Theme_AppCompat_Dialog = 0x7f0500ea;
 		public static final int Base_V14_Theme_AppCompat_Light = 0x7f0500e9;
 		public static final int Base_V14_Theme_AppCompat_Light_Dialog = 0x7f0500eb;
-		public static final int Base_V21_Theme_AppCompat = 0x7f0500ec;
-		public static final int Base_V21_Theme_AppCompat_Dialog = 0x7f0500ee;
-		public static final int Base_V21_Theme_AppCompat_Light = 0x7f0500ed;
-		public static final int Base_V21_Theme_AppCompat_Light_Dialog = 0x7f0500ef;
 		public static final int Base_V7_Theme_AppCompat = 0x7f0500d2;
 		public static final int Base_V7_Theme_AppCompat_Dialog = 0x7f0500d8;
 		public static final int Base_V7_Theme_AppCompat_Light = 0x7f0500d3;

@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity
 
     private GoogleMap mMap;
     private MapManager mManager;
+    private User self;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +61,14 @@ public class MainActivity extends ActionBarActivity
         }
         
         // initiate default User
-        self = new User(MY_LOCATION, STATUS, BIG, END);
+        self = new User();
+        if (self.initiate()) {
+            Toast.makeText(this, "Successfully initated", 
+                    Toast.LENGTH_LONG).show();   
+        }
+        else {
+            Toast.makeText(this, "Failed to initate", Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override

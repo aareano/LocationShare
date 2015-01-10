@@ -63,6 +63,12 @@ class User {
     void setEnd(Calendar end) {
         this.end = end;
     }
+
+    // Talks to the server to get necessary information about this user
+    public boolean initiate() {
+        
+        return true;
+    }
     
     
 }

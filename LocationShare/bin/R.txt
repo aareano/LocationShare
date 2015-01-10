@@ -605,8 +605,8 @@ int string title_section1 0x7f060034
 int string title_section2 0x7f060035
 int string title_section3 0x7f060036
 int string wallet_buy_button_place_holder 0x7f060022
-int style AppBaseTheme 0x7f0500f0
-int style AppTheme 0x7f0500f1
+int style AppBaseTheme 0x7f0500ec
+int style AppTheme 0x7f0500ed
 int style Base_TextAppearance_AppCompat 0x7f05009d
 int style Base_TextAppearance_AppCompat_Body1 0x7f0500a8
 int style Base_TextAppearance_AppCompat_Body2 0x7f0500a7
@@ -671,10 +671,6 @@ int style Base_V14_Theme_AppCompat 0x7f0500e8
 int style Base_V14_Theme_AppCompat_Dialog 0x7f0500ea
 int style Base_V14_Theme_AppCompat_Light 0x7f0500e9
 int style Base_V14_Theme_AppCompat_Light_Dialog 0x7f0500eb
-int style Base_V21_Theme_AppCompat 0x7f0500ec
-int style Base_V21_Theme_AppCompat_Dialog 0x7f0500ee
-int style Base_V21_Theme_AppCompat_Light 0x7f0500ed
-int style Base_V21_Theme_AppCompat_Light_Dialog 0x7f0500ef
 int style Base_V7_Theme_AppCompat 0x7f0500d2
 int style Base_V7_Theme_AppCompat_Dialog 0x7f0500d8
 int style Base_V7_Theme_AppCompat_Light 0x7f0500d3

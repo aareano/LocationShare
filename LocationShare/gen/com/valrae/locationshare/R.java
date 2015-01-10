@@ -2371,11 +2371,11 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0500f0;
+        public static final int AppBaseTheme=0x7f0500ec;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0500f1;
+        public static final int AppTheme=0x7f0500ed;
         public static final int Base_TextAppearance_AppCompat=0x7f05009d;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f0500a8;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f0500a7;
@@ -2388,7 +2388,6 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Headline=0x7f0500a2;
         /**  Deprecated text styles 
  Deprecated text styles 
- Now deprecated styles 
          */
         public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0500ac;
         public static final int Base_TextAppearance_AppCompat_Large=0x7f0500ad;
@@ -2400,8 +2399,6 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Menu=0x7f0500aa;
         public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f05008c;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f05008e;
-        /**  Search View result styles 
-         */
         public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f05008d;
         public static final int Base_TextAppearance_AppCompat_Small=0x7f0500b1;
         public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0500b2;
@@ -2452,10 +2449,6 @@ containing a value of this type.
         public static final int Base_V14_Theme_AppCompat_Dialog=0x7f0500ea;
         public static final int Base_V14_Theme_AppCompat_Light=0x7f0500e9;
         public static final int Base_V14_Theme_AppCompat_Light_Dialog=0x7f0500eb;
-        public static final int Base_V21_Theme_AppCompat=0x7f0500ec;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0500ee;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0500ed;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0500ef;
         /**  Base platform-dependent theme providing an action bar in a dark-themed activity. 
          */
         public static final int Base_V7_Theme_AppCompat=0x7f0500d2;
@@ -2468,14 +2461,10 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f05006b;
         public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f05006f;
         public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f05006d;
-        /**  Action Button Styles 
-         */
         public static final int Base_Widget_AppCompat_ActionButton=0x7f050068;
         public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f050069;
         public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f05006a;
         public static final int Base_Widget_AppCompat_ActionMode=0x7f050072;
-        /**  TODO. Needs updating for Material 
-         */
         public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f050091;
         public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f05008f;
         public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f05009b;
@@ -2492,11 +2481,7 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Light_AutoCompleteTextView=0x7f050090;
         public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f050087;
         public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f050085;
-        /**  Popup Menu 
-         */
         public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f050083;
-        /**  Spinner Widgets 
-         */
         public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f05007f;
         public static final int Base_Widget_AppCompat_ListView_Menu=0x7f050082;
         public static final int Base_Widget_AppCompat_PopupMenu=0x7f050086;
@@ -2504,7 +2489,6 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_PopupWindow=0x7f050093;
         public static final int Base_Widget_AppCompat_ProgressBar=0x7f05007b;
         /**  Progress Bar 
- Progress Bar 
          */
         public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f05007a;
         public static final int Base_Widget_AppCompat_SearchView=0x7f050098;
@@ -2513,12 +2497,6 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Spinner=0x7f05007c;
         public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f05007d;
         public static final int Base_Widget_AppCompat_Toolbar=0x7f050094;
-        /** 
-        Widget.AppCompat.Toolbar style is purposely ommitted. This is because the support
-        Toolbar implementation is used on ALL platforms and relies on the unbundled attrs.
-        The supporting Toolbar styles below only use basic attrs so work fine.
-    
-         */
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f050095;
         public static final int Platform_AppCompat=0x7f0500ce;
         public static final int Platform_AppCompat_Dialog=0x7f0500d0;
